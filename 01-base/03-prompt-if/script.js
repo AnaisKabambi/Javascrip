@@ -9,8 +9,24 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
-  // your code here
-
-})();
+<!--
+prompt("Would you like some cake?")
+{
+    var txt;
+    if ("yes") {
+        txt = "Congratulations";
+    } else {
+        txt = "More cake for me then :p !"
+    }
+}
+-->
+function myFunction() {
+    var txt;
+    if ("yes") {
+        txt = "Congratulations";
+    } else {
+        txt = "More cake for me then :p !";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
