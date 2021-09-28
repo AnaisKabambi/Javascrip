@@ -9,8 +9,9 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
-    // your code here
-
-})();
+function color()
+{
+    var clr = document.myform.colorname.value;
+    document.color = clr;
+}

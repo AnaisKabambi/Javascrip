@@ -9,8 +9,15 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
-
-    // your code here
-
-})();
+function red() {
+    document.getElementById("content").style.backgroundColor = "red";
+}
+function green() {
+    document.getElementById("content").style.backgroundColor = "green";
+}
+function yellow() {
+    document.getElementById("content").style.backgroundColor = "red";
+}
+function blue() {
+    document.getElementById("content").style.backgroundColor = "red";
+}
