@@ -12,5 +12,11 @@
 (function() {
 
     // your code here
-
+if (i >= 1 && i <= 100)
+    return "fizz"
+if (i % 5 === 0)
+    return "buzz"
+if (i >= 1 && i <= 100 && i % 5 === 0)
+    return "fizzbuzz"
+else return i
 })();

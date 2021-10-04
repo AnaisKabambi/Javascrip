@@ -9,22 +9,30 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
-    // to get the value of an input: document.getElementById("element-id").value
+function addition(){
+    let x=document.getElementById("op-one").value;
+    let y=document.getElementById("op-two").value;
+    let sum=Number(x)+Number(y);
+    alert("SUM is: " + sum);
+}
 
-    document.getElementById("addition").addEventListener("click", function() {
-        // perform an addition
-    });
+function subtraction(){
+    let x=document.getElementById("op-one").value;
+    let y=document.getElementById("op-two").value;
+    let sum=Number(x)-Number(y);
+    alert("SUM is: " + sum);
+}
 
-    document.getElementById("substraction").addEventListener("click", function() {
-        // perform an substraction
-    });
+function multiplication(){
+    let x=document.getElementById("op-one").value;
+    let y=document.getElementById("op-two").value;
+    let sum=Number(x)*Number(y);
+    alert("SUM is: " + sum);
+}
 
-    document.getElementById("multiplication").addEventListener("click", function() {
-        // perform an multiplication
-    });
-
-    document.getElementById("division").addEventListener("click", function() {
-        // perform an division
-    });
-})();
+function division(){
+    let x=document.getElementById("op-one").value;
+    let y=document.getElementById("op-two").value;
+    let sum=Number(x)/Number(y);
+    alert("SUM is: " + sum);
+}

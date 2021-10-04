@@ -11,14 +11,28 @@
 
 (function() {
     // to get the value of an input: document.getElementById("element-id").value
+    document.getElementById("op-one").value
+    document.getElementById("op-two").value
 
-    var performOperation = function(operation) {
-        // perform the operation
-    };
+    function Calculatrice(a, b, op) {
 
-    Array.from(document.querySelectorAll("button.operator")).forEach(function($btn) {
-        $btn.addEventListener("click", function() {
-            performOperation($btn.id);
-        });
-    });
-})();
+        switch (op) {
+
+            case '+':
+                return a + b
+                break;
+            case '-':
+                return a - b
+                break;
+            case '*':
+                return a * b
+                break;
+            case '/':
+                return a / b
+                break;
+
+        }
+
+    }
+    console.log(Calculatrice(5, 5, '+'));
+})

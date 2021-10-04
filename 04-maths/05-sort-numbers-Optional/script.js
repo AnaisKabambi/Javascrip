@@ -16,7 +16,7 @@
     document.getElementById("run").addEventListener("click", function() {
 
         // your code here
-
+        numbers.sort(function(a, b){return a-b});
     });
 
 })();
