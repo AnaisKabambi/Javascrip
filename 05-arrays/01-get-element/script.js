@@ -27,5 +27,5 @@
     ];
 
     // your code here
-
+    let x = fruits [3]
 })();

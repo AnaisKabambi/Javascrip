@@ -40,5 +40,6 @@
     ];
 
     // your code here
-
+    people.forEach(element => console.log(firstname));
+    document.getElementById('run').onclick = reply_click;
 })();

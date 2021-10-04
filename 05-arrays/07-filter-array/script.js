@@ -90,5 +90,8 @@
     ];
 
     // your code here
-
+    const clonePeople = people.slice(
+        if (age < 18)
+    );
+return clonePeople
 })();

@@ -90,5 +90,9 @@
     ];
 
     // your code here
+    function add(accumulator, age) {
+        return accumulator + age;
+    }
 
+    console.log(sum);
 })();

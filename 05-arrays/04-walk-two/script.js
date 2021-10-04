@@ -27,5 +27,5 @@
     ];
 
     // your code here
-
+    fruits.forEach(element => console.log(element));
 })();

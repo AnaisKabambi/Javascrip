@@ -29,4 +29,10 @@
     ];
 
     // your code here
+    let usingFilter = () => {
+        return unique = fruits.filter(function(item,index){
+            return fruits.indexOf(item) == index;
+        });
+    }
+    console.log(usingFilter())
 })();

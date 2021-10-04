@@ -27,5 +27,6 @@
     ];
 
     // your code here
-
+if fruits.includes("apple");
+    console.log()
 })();

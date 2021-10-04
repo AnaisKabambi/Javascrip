@@ -25,5 +25,8 @@
     ];
 
     // your code here
-
+    let last = fruits.pop();
+    let first = fruits.shift();
+    let newLength = fruits.unshift('Banana');
+    let newLength = fruits.push('Kiwi')
 })();
