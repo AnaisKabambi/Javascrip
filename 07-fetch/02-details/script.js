@@ -10,5 +10,19 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
-})();
+
+    function loadHeroes(){
+        getJSON('_shared/api.json', function (data){})
+    }
+    var heroes = [];
+   // console.log(result)
+   // document.getElementById("target").innerHTML = document.getElementById("tpl-hero");
+    let btn = document.getElementById("run")
+    loadHeroes.appendChild(btn)
+    btn.addEventListener("click", ()=>{
+        console.log()
+    })
+
+    document.body.appendChild(popup)
+    })
+
