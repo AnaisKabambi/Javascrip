@@ -12,5 +12,16 @@
 (function() {
 
     // your code here
+       // document.getElementById("pass-one")
+       // document.getElementById("counter").innerHTML = obj.value.length;
+       // const MAX = 10;
+
+    //var lng = str.length;
+   // L = lng;
+    document.getElementById("pass-one")
+    document.getElementById("counter").innerHTML = obj.value.length;
+    const maxLength = 10;
+    const strLength = obj.value.length;
+
 
 })();

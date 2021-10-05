@@ -12,5 +12,12 @@
 (function() {
 
     // your code here
+    document.getElementById("validity").innerHTML
+    document.getElementsByName("pass-one")[0].addEventListener('input', doThing);
+    function doThing(){
+        if (pass-one.value.length >= 8 && /\d/.test("pass-one")) {
+            document.getElementById("validity").innerHTML = OK
+        }
 
+    }
 })();

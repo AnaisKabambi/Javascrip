@@ -13,4 +13,15 @@
 
     // your code here
 
+        var pw1 = document.getElementById("pass-one");
+        var pw2 = document.getElementById("pass-two");
+        if(pw1 != pw2)
+        {
+            alert("Passwords did not match");
+            pw1.style.backgroundColor = "red";
+            pw2.style.backgroundColor = "red";
+        } else {
+            alert("Password created successfully");
+        }
+
 })();

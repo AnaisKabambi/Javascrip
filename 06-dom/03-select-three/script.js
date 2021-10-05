@@ -12,5 +12,6 @@
 (function() {
 
     // your code here
-
+    const div = document.querySelector('section.material')
+    div.innerHTML = "Owned";
 })();

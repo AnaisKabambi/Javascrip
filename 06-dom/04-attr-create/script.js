@@ -12,5 +12,8 @@
 (function() {
 
     // your code here
-
+    var number=document.getElementById("source").value;
+    const img = document.createElement("target");
+    img.src = "source";
+    document.body.appendChild(img);
 })();
