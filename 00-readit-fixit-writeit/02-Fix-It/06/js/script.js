@@ -64,7 +64,12 @@ const shows = [
 
 const wrapWithTag = (content, tagname) => `<${tagname}>${content}</${tagname}>`;
 
-const topScoreFilter = show => { };
+const topScoreFilter = show => {
+  if (score < 90) {
+  display = none;
+} else {
+  display = block;
+}};
 
 shows.filter(topScoreFilter);
 

@@ -9,7 +9,7 @@ const shows = [
   `colony`,
   `24: legacy`,
   `speechless`,
-  `scherlock`,
+  `sherlock`,
   `stranger things`,
   `this is us`,
   `timeless`,
@@ -18,16 +18,7 @@ const shows = [
 
 const wrapWithTag = (content, tagname) => `<${tagname}>${content}</${tagname}>`;
 
-const writeTitle = title => {
-  const newTitle = uCFirst(title);
-  document.write(wrapWithTag(newTitle, `li`));
-};
-
-const uCFirst = sentence => {
-  const words = sentence.split(``);
-  words = words.map(word => word.charAt(0).toUpperCase() + word.slice());
-  return words.join();
-};
+const writeTitle =
 
 document.write(`<ol>`);
 shows.forEach(show => writeTitle(show));
