@@ -10,19 +10,16 @@
 // You will have time to focus on it later.
 
 (() => {
+const MyJSON = '_shared/api.json';
+const obj = JSON.parse(MyJSON);
 
-    function loadHeroes(){
-        getJSON('_shared/api.json', function (data){})
-    }
-    var heroes = [];
-   // console.log(result)
-   // document.getElementById("target").innerHTML = document.getElementById("tpl-hero");
-    let btn = document.getElementById("run")
-    loadHeroes.appendChild(btn)
-    btn.addEventListener("click", ()=>{
-        console.log()
-    })
-
-    document.body.appendChild(popup)
+let heroesId = obj.id;
+let heroesName = obj.name;
+let heroesAlterEgo = obj.alterego;
+let heroesAbilities = obj.abilities;
+    document.getElementById("target").innerHTML = obj.id;
+    document.getElementById("target").innerHTML = obj.name;
+    document.getElementById("target").innerHTML = obj.alterego;
+    document.getElementById("target").innerHTML = obj.abilities;
     })
 

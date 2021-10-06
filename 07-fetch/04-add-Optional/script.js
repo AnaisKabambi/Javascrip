@@ -10,5 +10,20 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+
+    const obj = JSON.parse(_shared/api.json);
+
+    document.getElementById("run").addEventListener("click", myFunction);
+    function myFunction() {
+        document.getElementById("hero-name").innerHTML = obj.name;
+        document.getElementById("hero-alter-ego").innerHTML = obj.alterego;
+        document.getElementById("hero-powers").innerHTML = obj.powers;
+
+        obj["heroes"].push({
+            name: document.getElementById("hero-name").value,
+            alterego: document.getElementById("hero-alter-ego").value,
+            powers: document.getElementById("hero-powers").value,
+        });
+
+    }
 })();
