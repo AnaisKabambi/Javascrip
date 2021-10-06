@@ -9,7 +9,7 @@ const tvshows = [
   `colony`,
   `24: legacy`,
   `speechless`,
-  `scherlock`,
+  `sherlock`,
   `stranger things`,
   `this is us`,
   `timeless`,
@@ -21,5 +21,6 @@ const wrapWithTag = (content, tagname) => {
 };
 
 document.write(`<ol>`);
+let show = tvshows
 show.forEach(tvshows => document.write(wrapWithTag(show, `li`)));
 document.write(`</ol>`);

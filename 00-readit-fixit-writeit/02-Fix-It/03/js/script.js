@@ -21,5 +21,7 @@ document.write(`<ol>`);
 for (let i = 0; i < tvshows.length; i++) {
   document.write(`<li>${tvshows[i]}</li>`);
 }
+const reversed = array1.reverse();
+console.log('reversed:', reversed);
 document.write(`</ol>`);
 
