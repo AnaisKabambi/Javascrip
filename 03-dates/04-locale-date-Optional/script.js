@@ -11,7 +11,19 @@
 
 
 (function() {
-    var dt = new Date();
-    document.getElementById('target').innerHTML=dt;
-    document().format("dddd, MMMM Do YYYY, h:mm:ss a");
+    var today = new Date();
+    var date = today.getDay() +' '+ today.getDate() +' '+ (today.getMonth()+1) +' '+ today.getFullYear() +', '+ today.getHours() +'h'+ today.getMinutes();
+    document.getElementById("target").innerHTML = date
+
+    const d = new Date();
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const monthName = months[d.getMonth()]
+
+    const x = new Date();
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const dayName = days[x.getDay()]
+    console.log(dayName)
+    console.log(monthName)
+
+
 })();

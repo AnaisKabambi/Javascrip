@@ -13,14 +13,17 @@
 
     // your code here
 
-})();
-var dob = '19800810';
-var year = Number(dob.substr(0, 4));
-var month = Number(dob.substr(4, 2)) - 1;
-var day = Number(dob.substr(6, 2));
-var today = new Date();
-var age = today.getFullYear() - year;
+
+let dob = '19800810';
+let year = Number(dob.substr(0, 4));
+let month = Number(dob.substr(4, 2)) - 1;
+let day = Number(dob.substr(6, 2));
+let today = new Date();
+let age = today.getFullYear() - year;
 if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < day)) {
     age--;
+    function run() {
+        alert(age);
+    }
 }
-alert(age);
+})();
