@@ -12,7 +12,7 @@
 
 (function() {
     var today = new Date();
-    var date = today.getDay() +' '+ today.getDate() +' '+ (today.getMonth()+1) +' '+ today.getFullYear() +', '+ today.getHours() +'h'+ today.getMinutes();
+    const date = today.getDay() +' '+ today.getDate() +' '+ (today.getMonth()+1) +' '+ today.getFullYear() +', '+ today.getHours() +'h'+ today.getMinutes();
     document.getElementById("target").innerHTML = date
 
     const d = new Date();
