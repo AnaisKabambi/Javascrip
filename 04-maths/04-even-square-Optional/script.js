@@ -14,7 +14,7 @@
     document.getElementById("run").addEventListener("click", function() {
 
         // your code here
-        for (i in range (i >= 1 && i <= 21);
+        for (i in range (i >= 1 && i <= 21))
         print(i*i)
     });
 
