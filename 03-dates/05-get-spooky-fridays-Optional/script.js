@@ -11,22 +11,10 @@
 
 (function() {
 
-    // your code here
-
-})();
-function button (jahr){
-    var d = new Date();
-    var counter = 0;
-    var month;
-
-    for(month=0;month<12;month++)
-    {
-        d.setFullYear(jahr, month,13);
-        if (d.getDay() == 5)
-        {
-            counter++;
+    for (i = 1; i <= 31; i++) {
+        var date = new Date(2011, 11, i);
+        if (date.getDay() == 5 && date.getDate() == 13) {
         }
     }
+})();
 
-    return counter;
-}
