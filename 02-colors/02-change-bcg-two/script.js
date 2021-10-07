@@ -10,8 +10,8 @@
 // You will have time to focus on it later.
 
 
-function color()
+(function color()
 {
-    var clr = document.myform.colorname.value;
-    document.color = clr;
-}
+    let x = document.getElementById("color").value;
+    document.getElementById("body").document.body.style.backgroundColor = "x";
+})()

@@ -10,14 +10,15 @@
 // You will have time to focus on it later.
 
 function red() {
-    document.getElementById("content").style.backgroundColor = "red";
+    document.getElementById("content").document.body.style.backgroundColor = "red";
 }
 function green() {
-    document.getElementById("content").style.backgroundColor = "green";
+    document.getElementById("content").document.body.style.backgroundColor = "green";
 }
 function yellow() {
-    document.getElementById("content").style.backgroundColor = "red";
+    document.getElementById("content").document.body.style.backgroundColor = "yellow";
 }
 function blue() {
-    document.getElementById("content").style.backgroundColor = "red";
+    document.getElementById("content").document.body.style.backgroundColor = "blue";
 }
+

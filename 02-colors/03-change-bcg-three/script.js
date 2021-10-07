@@ -10,7 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-
-    // your code here
+    let randomColor = "#" + ((1<<24)*Math.random() | 0).toString(16);
+    document.getElementById("body").style.backgroundColor = randomColor;
 
 })();
